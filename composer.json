@@ -1,0 +1,28 @@
+{
+    "name": "saba/link",
+    "description": "Saba idea Test",
+    "keywords": [
+        "SabIdea Test",
+        "Php Composer"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samiei",
+            "email": "p.abolfazl.samiei@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "nesbot/carbon": "2.x-dev",
+        "devscreencast/json-response": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "SabaIdea\\": "src/",
+            "SabaIdeaAdmin\\": "admin/users/",
+            "Test\\": "test/"
+        }
+    }
+
+}
